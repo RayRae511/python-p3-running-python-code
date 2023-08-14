@@ -10,9 +10,6 @@ class TestAppPy:
     app.py
     '''
     def test_app_py_exists(self):
-        '''
-        exists in lib directory
-        '''
         assert(path.exists("lib/app.py"))
 
     def test_app_py_runs(self):
